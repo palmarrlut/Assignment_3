@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Assignment 2 - TicTacToe</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="src/stylist.css">
+		<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	</head>
+
+	<body>
+		<h1>Tic Tac Toe</h1>
+		<div class="container" style="width:300px">
+			<div id="message">Player 1 starts "X".</div>
+			<div id="timerText">10</div>
+			<div class="progress">
+				<div class="determinate" id="timerBar"></div>
+			</div>
+		</div>
+
+		<div class="container" style="width:300px" id="board">
+			<!-- First Row -->
+			<div class="row">
+				<!-- The first number in 'id="bxx"' is the row and the second is the col s1umn. -->
+				<div class="col s2" style="width:20%" id="b11"></div>
+				<div class="col s2" style="width:20%" id="b12"></div>
+				<div class="col s2" style="width:20%" id="b13"></div>
+				<div class="col s2" style="width:20%" id="b14"></div>
+				<div class="col s2" style="width:20%" id="b15"></div>
+			
+			<!-- Second Row -->
+				<div class="col s2" style="width:20%" id="b21"></div>
+				<div class="col s2" style="width:20%" id="b22"></div>
+				<div class="col s2" style="width:20%" id="b23"></div>
+				<div class="col s2" style="width:20%" id="b24"></div>
+				<div class="col s2" style="width:20%" id="b25"></div>
+			
+			<!-- Third Row -->
+				<div class="col s2" style="width:20%" id="b31"></div>
+				<div class="col s2" style="width:20%" id="b32"></div>
+				<div class="col s2" style="width:20%" id="b33"></div>
+				<div class="col s2" style="width:20%" id="b34"></div>
+				<div class="col s2" style="width:20%" id="b35"></div>
+			
+			<!-- Fourth Row -->
+				<div class="col s2" style="width:20%" id="b41"></div>
+				<div class="col s2" style="width:20%" id="b42"></div>
+				<div class="col s2" style="width:20%" id="b43"></div>
+				<div class="col s2" style="width:20%" id="b44"></div>
+				<div class="col s2" style="width:20%" id="b45"></div>
+			
+			<!-- Fifth Row -->
+				<div class="col s2" style="width:20%" id="b51"></div>
+				<div class="col s2" style="width:20%" id="b52"></div>
+				<div class="col s2" style="width:20%" id="b53"></div>
+				<div class="col s2" style="width:20%" id="b54"></div>
+				<div class="col s2" style="width:20%" id="b55"></div>
+
+		</div>
+		<a href="javascript:void(0);" id="restart">Start Over</a>
+		<script src="src/mycode.js"></script>
+		 <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	</body>
+</html>

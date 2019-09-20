@@ -1,0 +1,50 @@
+#board {
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border-collapse: collapse;
+}
+/* Title */
+h1 {
+  text-align: center;
+  border-bottom: 1px solid black;
+  font-family: sans-serif;
+  color: white;
+  background-color: #003366;
+}
+
+#message {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#timerText {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: turquoise;
+  margin-top: 20px;
+}
+
+#restart {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-decoration: none;
+}
+.col.s2 {
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer; /* Helps the user to understand that the "box" is clickable. */
+  font-family: Helvetica;
+  font-size: 40px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.classX {
+  background-color: rgb(124, 252, 0);
+}
+
+.classO {
+  background-color: rgb(250, 128, 114);
+}
